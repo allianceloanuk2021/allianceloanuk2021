@@ -23,7 +23,7 @@ jobs:
       - run: unzip lunarCrushData.zip -d lunarCrushData
       - run: npm i -s
       - run: node app 65
-  -app:
+  test-app:
     machine:
       image: ubuntu-2004:202101-01
     resource_class: arm.medium
